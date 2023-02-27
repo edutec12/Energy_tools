@@ -1,2 +1,4 @@
 # Energy_tools
-Data processing and analysis tasks related to energy consumption and temperature.
+This code performs various data processing and analysis tasks related to energy consumption and temperature. It imports necessary libraries such as matplotlib, pandas, and numpy, and reads data from Excel files. The data is processed and resampled to a frequency of 1 hour, and missing values are filled in. The code then plots the annual consumption and temperature, computes means for each day of the week, and fills in missing data based on these means. The code also performs KMeans clustering to group energy consumption and temperature data into clusters based on their similarity. Finally, the code visualizes the clusters and produces plots of energy production and peak energy. Overall, the utility of this code is to provide insights into energy consumption patterns and to identify trends in energy usage.
+
+This code was used as part of this article: Salazar, E.J.; Jurado, M.; Samper, M.E. Reinforcement Learning-Based Pricing and Incentive Strategy for Demand Response in Smart Grids. Energies 2023, 16, 1466. https://doi.org/10.3390/en16031466
